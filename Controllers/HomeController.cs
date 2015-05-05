@@ -9,8 +9,9 @@ namespace SectionPractice.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public ActionResult Index()
+        public ActionResult Index(string layoutname)
         {
+            ViewBag.layoutname = (layoutname == null) ? "" : layoutname;
             return View();
         }
     }

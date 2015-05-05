@@ -16,3 +16,9 @@ D:\James Corkran\Documents\GitHub\SectionPractice\bin\System.Web.Mvc.xml
 D:\James Corkran\Documents\GitHub\SectionPractice\obj\Debug\SectionPractice.csprojResolveAssemblyReference.cache
 D:\James Corkran\Documents\GitHub\SectionPractice\obj\Debug\SectionPractice.dll
 D:\James Corkran\Documents\GitHub\SectionPractice\obj\Debug\SectionPractice.pdb
+D:\documents\GitHub\SectionPractice\bin\SectionPractice.dll.config
+D:\documents\GitHub\SectionPractice\bin\SectionPractice.dll
+D:\documents\GitHub\SectionPractice\bin\SectionPractice.pdb
+D:\documents\GitHub\SectionPractice\obj\Debug\SectionPractice.csprojResolveAssemblyReference.cache
+D:\documents\GitHub\SectionPractice\obj\Debug\SectionPractice.dll
+D:\documents\GitHub\SectionPractice\obj\Debug\SectionPractice.pdb
