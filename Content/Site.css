@@ -12,15 +12,15 @@
 /* Set padding to keep content from hitting the edges */
 .body-content_two {
     background: black;
-    padding-left: 15px;
-    padding-right: 15px;
+    color: white;
+    padding-left: 55px;
+    margin-left: 80px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content_three {
     background: blue;
-    padding-left: 15px;
-    padding-right: 15px;
+    color: yellow;
 }
 /* Set width on the form input elements since they're 100% wide by default */
 input,

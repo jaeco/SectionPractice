@@ -1,7 +1,7 @@
 ﻿
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout" + ViewBag.layoutname + ".cshtml";
+    Layout = "~/Views/Shared/_Layout" + ViewBag.layoutname + ".cshtml";    
 }
 
 @section sectionNavigation
@@ -10,25 +10,22 @@
         <li><a href="~/Home/Index/">Layout One</a></li>  
         <li><a href="~/Home/Index/Two">Layout Two</a></li>
         <li><a href="~/Home/Index/Three">Layout Three</a></li>
-    
-    
-        <!--  ASK KREBS HOW THESE FUNCTION PROPERLY
-        <li>@Html.ActionLink("Layout One", "Layout", "Shared", new { area = "" }, new { @class = "navbar-brand" })</li>
-        <li>@Html.ActionLink("Layout Two", "Index", "Layout", new { area = "" }, new { @class = "navbar-brand" })</li>
-        <li>@Html.ActionLink("Layout Three", "Index", "Layout", new { area = "" }, new { @class = "navbar-brand" })</li>
-        -->
+
+<!--  ASK KREBS HOW THESE FUNCTION PROPERLY
+    <li>@Html.ActionLink("Layout One", "Index", "Home", new { }, new { @class = "navbar-brand" })</li>
+    <li>@Html.ActionLink("Layout Two", "_LayoutTwo", "Layout", new { area = "" }, new { @class = "navbar-brand" })</li>
+    <li>@Html.ActionLink("Layout Three", "_LayoutThree", "Layout", new { area = "" }, new { @class = "navbar-brand" })</li>
+    -->
 }
 
 @section sectionHeader
 {
-<article>
     <h1>ITS A HEADER</h1>
-</article>
 }
 
 @section sectionFooter
 {
-    <article>
         <p>ITS A FOOTER</p>
-    </article>
 }
+
+<p>Here is some body text to enjoy. :)</p>
